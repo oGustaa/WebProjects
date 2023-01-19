@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
 
 *{
     padding: 0;
@@ -19,13 +19,14 @@ body{
 
 #content{
     flex-direction: column;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     color: #fff;
     display: flex;
-    width: 30%;
-    height: 649px;
-    background-color: #202020;
+    width: 37%;
+    height: 458px;
+    background-color: #6e4404;
     box-shadow: black 0px 0px 120px 60px;
+    padding: 7%;
 }
 
 #content h1{
@@ -39,9 +40,12 @@ body{
 
 #content input{
     color: #fff;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 26px;
-    background: #202020;
+    background: #a0650c;
+    border: 2px solid #6e4404;
+    border-radius: 4px;
+    
 }
 
 #content label{
@@ -52,7 +56,7 @@ body{
 #infor{
     display: flex;
     width: 100%;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .titulo{
@@ -60,6 +64,8 @@ body{
     padding-left: 4.5%;
     display: flex;
     color: #fff;
-    font-size: 72px;
+    font-size: 85px;
 }
+
+
 

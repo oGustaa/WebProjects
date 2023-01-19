@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Biblioteca Digital - Nikola Tesla</title>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
+    <script src="main.js"></script>
+
+    <title>Biblioteca Virtual - Nikola Tesla</title>
 </head>
 <body>
     
@@ -19,17 +22,15 @@
                 <label for="fcode">Sua senha</label>
                 <input type="password" id="password" name="code"><br>
                 <input type="submit" value="Entrar">
+                <div id="buttonDiv"></div> 
             </form>
         </div>
         
         <div id="infor">
             <div class="titulo">
-            <h1>Biblioteca Digital<br>Nikola Tesla</h1>
+            <h1>Biblioteca Virtual<br>Nikola Tesla</h1>
             </div>
         </div>
-
     </div>
-
-
 </body>
 </html>
